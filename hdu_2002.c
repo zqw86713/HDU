@@ -4,14 +4,13 @@
 #define PI (3.1415927)
 
 int main() {
-	
-	double r;
-	while(scanf("%lf",&r)!=EOF) {
+        double r= 0.0;
+            double v = 0.0;
+                while (scanf("%f\n", &r) != EOF) {
+                            v = 4/ 3 * PI * pow(r, 3);
+                                    printf("%3f\n", v);
+                                        }
 
-		printf("%.3lf\n",4*PI*r*r*r/3);
-	
-	}
-	return 0;
+                    return 0;
 
 }
-
